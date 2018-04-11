@@ -6,7 +6,7 @@ class Todo extends Component {
       type: 'DELETE_TODO'
     });
   }
-  
+
   render() {
     return (
       <li>
