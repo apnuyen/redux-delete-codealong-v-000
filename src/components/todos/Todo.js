@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class Todo extends Component {
   handleOnClick = () => {
     this.props.storedispatch({
-      type: 'DELETE_TODO'
+      type: 'DELETE_TODO',
+      id: this.props.id,
     });
   }
 
